@@ -1,0 +1,315 @@
+
+Mon Nov 09 2015 19:46:12 GMT-0300 (CLT)
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.10.5
+  Architecture                = 64bit
+  # CPUs                      = 4
+  Memory                      = 8589934592
+
+Node.js
+  Node.js Version             = 0.10.37
+  npm Version                 = 1.4.28
+
+Titanium CLI
+  CLI Version                 = 5.0.5
+
+Titanium SDK
+  SDK Version                 = 5.0.2.GA
+  SDK Path                    = /Users/Orellana/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/Orellana/.appcelerator/install/5.0.3/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 5.0.2.GA --project-dir /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram --target simulator --ios-version 9.0 --device-family universal --sim-type iphone --sim-version 9.0 --device-id F1B8D791-DFF7-46CD-A2E1-677686B7FE03 --skip-js-minify --liveview --deploy-type development --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 51274 --plugin-paths /Users/Orellana/.appcelerator/install/5.0.3/package/node_modules --config-file /var/folders/3x/_bbznb391mldk03_t23f1kzh0000gn/T/build-1447109168562.json --no-banner
+
+[TRACE]  [ioslib] Validating iOS Simulator UDID F1B8D791-DFF7-46CD-A2E1-677686B7FE03
+[TRACE]  [ioslib] Found iOS Simulator UDID F1B8D791-DFF7-46CD-A2E1-677686B7FE03
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
+[TRACE]  [ioslib]   UDID    = F1B8D791-DFF7-46CD-A2E1-677686B7FE03
+[TRACE]  [ioslib]   iOS     = 9.0
+[TRACE]  [ioslib] Autoselected Xcode: 7.0.1
+[INFO]   Symlinked files not supported with iOS 9.0 simulator, forcing files to be copied
+[DEBUG]  Detecting modules in /Users/Orellana/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ /Users/Orellana/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected android module: com.appcelerator.apm 1.1.5 @ /Users/Orellana/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.5
+[DEBUG]  Detected android module: facebook 4.0.5 @ /Users/Orellana/Library/Application Support/Titanium/modules/android/facebook/4.0.5
+[DEBUG]  Detected android module: ti.cloudpush 3.3.8 @ /Users/Orellana/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.3.8
+[DEBUG]  Detected android module: ti.cloudpush 3.4.0 @ /Users/Orellana/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.4.0
+[DEBUG]  Detected android module: ti.map 2.3.1 @ /Users/Orellana/Library/Application Support/Titanium/modules/android/ti.map/2.3.1
+[DEBUG]  Detected android module: ti.map 2.3.3 @ /Users/Orellana/Library/Application Support/Titanium/modules/android/ti.map/2.3.3
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ /Users/Orellana/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.1 @ /Users/Orellana/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.5 @ /Users/Orellana/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/1.1.5
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 1.1.1 @ /Users/Orellana/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/1.1.1
+[DEBUG]  Detected iphone module: facebook 4.0.5 @ /Users/Orellana/Library/Application Support/Titanium/modules/iphone/facebook/4.0.5
+[DEBUG]  Detected iphone module: ti.coremotion 1.1.0 @ /Users/Orellana/Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.1.0
+[DEBUG]  Detected iphone module: ti.map 2.3.1 @ /Users/Orellana/Library/Application Support/Titanium/modules/iphone/ti.map/2.3.1
+[DEBUG]  Detected iphone module: ti.map 2.4.1 @ /Users/Orellana/Library/Application Support/Titanium/modules/iphone/ti.map/2.4.1
+[DEBUG]  Detected iphone module: ti.touchid 1.1.0 @ /Users/Orellana/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.1.0
+[DEBUG]  Detected iphone module: ti.touchid 1.2.0 @ /Users/Orellana/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.2.0
+[DEBUG]  Looking for Titanium module id=ti.cloud version=latest platform=commonjs deploy-type=development
+[INFO]   Found Titanium module id=ti.cloud version=3.2.9 platform=commonjs deploy-type=development path=/Users/Orellana/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Detecting plugins in /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/plugins
+[DEBUG]  Detected plugin: ti.alloy @ /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/plugins/ti.alloy
+[DEBUG]  Detecting plugins in /Users/Orellana/Library/Application Support/Titanium/plugins
+[DEBUG]  Detected plugin: com.appcelerator.test @ /Users/Orellana/Library/Application Support/Titanium/plugins/com.appcelerator.test
+[DEBUG]  Looking for Titanium plugin id=ti.alloy version=1.0
+[INFO]   Found Titanium plugin id=ti.alloy version=1.0 
+[TRACE]  Snapshotting build directory
+[DEBUG]  Titanium SDK iOS directory: /Users/Orellana/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 9.0
+[INFO]   Building for iOS Simulator: iPhone 6
+[DEBUG]  UDID: F1B8D791-DFF7-46CD-A2E1-677686B7FE03
+[DEBUG]  Simulator type: iphone
+[DEBUG]  Simulator version: 9.0
+[INFO]   Building for device family: universal
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Minimum iOS version: 7.1
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Set to copy files instead of symlinking
+[INFO]   Initializing the build directory
+[INFO]   Found Alloy app in /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/app
+[INFO]   Executing Alloy compile: /usr/local/bin/node /Users/Orellana/.appcelerator/install/5.0.3/package/node_modules/appc-cli-titanium/node_modules/alloy/bin/alloy compile /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/app --config platform=ios,version=0,simtype=none,devicefamily=universal,deploytype=development,target=simulator --no-colors
+[DEBUG]         .__  .__                
+[DEBUG]  _____  |  | |  |   ____ ___.__.
+[DEBUG]  \__  \ |  | |  |  /  _ <   |  |
+[DEBUG]   / __ \|  |_|  |_(  <_> )___  |
+[DEBUG]  (____  /____/____/\____// ____|
+[DEBUG]       \/                 \/
+[DEBUG]  Alloy 1.7.16 by Appcelerator. The MVC app framework for Titanium.
+[DEBUG]  ----- CONFIGURATION -----
+[DEBUG]  raw config = "platform=ios,version=0,simtype=none,devicefamily=universal,deploytype=development,target=simulator"
+[DEBUG]  platform = ios
+[DEBUG]  version = 0
+[DEBUG]  simtype = none
+[DEBUG]  devicefamily = universal
+[DEBUG]  deploytype = development
+[DEBUG]  target = simulator
+[DEBUG]  project path = /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram
+[DEBUG]  app path = /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/app
+[DEBUG]  
+[DEBUG]  ----- CONFIG.JSON -----
+[DEBUG]  dependencies = {}
+[INFO]   [config.json] config.json unchanged, using cached config.json...
+[DEBUG]  {
+[DEBUG]  "dependencies": {},
+[DEBUG]  "sourcemap": true,
+[DEBUG]  "autoStyle": false,
+[DEBUG]  "adapters": [
+[DEBUG]  "localStorage",
+[DEBUG]  "properties",
+[DEBUG]  "sql"
+[DEBUG]  ]
+[DEBUG]  }
+[DEBUG]  
+[DEBUG]  ----- CLEANING RESOURCES -----
+[DEBUG]  Removing orphaned controllers ...
+[DEBUG]  Removing orphaned models ...
+[DEBUG]  Removing orphaned styles ...
+[DEBUG]  Removing orphaned sync adapters...
+[DEBUG]  Removing orphaned assets and libs...
+[DEBUG]  
+[DEBUG]  ----- BASE RUNTIME FILES -----
+[TRACE]  SRC_DIR=/Users/Orellana/.appcelerator/install/5.0.3/package/node_modules/appc-cli-titanium/node_modules/alloy/Alloy/lib
+[TRACE]  Copying SRC_DIR/alloy/sync/sql.js --> Resources/iphone/alloy/sync/sql.js
+[TRACE]  Copying SRC_DIR/alloy/sync/properties.js --> Resources/iphone/alloy/sync/properties.js
+[TRACE]  Copying SRC_DIR/alloy/sync/localStorage.js --> Resources/iphone/alloy/sync/localStorage.js
+[TRACE]  Copying SRC_DIR/alloy/controllers/BaseController.js --> Resources/iphone/alloy/controllers/BaseController.js
+[TRACE]  Copying SRC_DIR/alloy/widget.js --> Resources/iphone/alloy/widget.js
+[TRACE]  Copying SRC_DIR/alloy/underscore.js --> Resources/iphone/alloy/underscore.js
+[TRACE]  Copying SRC_DIR/alloy.js --> Resources/iphone/alloy.js
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/Orellana/.appcelerator/install/5.0.3/package/node_modules/appc-cli-titanium/node_modules/alloy/Alloy/common
+[TRACE]  Copying SRC_DIR/constants.js --> Resources/iphone/alloy/constants.js
+[TRACE]  
+[TRACE]  SRC_DIR=/Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/app/assets
+[TRACE]  
+[DEBUG]  
+[INFO]   ----- MVC GENERATION -----
+[INFO]   [global style] loading from cache...
+[INFO]   [index.xml] view processing...
+[INFO]   style:      "index.tss"
+[INFO]   view:       "index.xml"
+[INFO]   controller: "index.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/index.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/index.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/index.js"
+[INFO]   [ventana2.xml] view processing...
+[INFO]   style:      "ventana2.tss"
+[INFO]   view:       "ventana2.xml"
+[INFO]   controller: "ventana2.js"
+[TRACE]  - Processing "builtins" module...
+[TRACE]  - Processing "optimizer" module...
+[TRACE]  - Processing "compress" module...
+[INFO]   created:    "Resources/iphone/alloy/controllers/ventana2.js"
+[DEBUG]  map:        "build/map/Resources/iphone/alloy/controllers/ventana2.js.map"
+[INFO]   created:     "Resources/iphone/alloy/styles/ventana2.js"
+[INFO]   
+[INFO]   
+[INFO]   [app.js] using cached app.js...
+[INFO]   
+[INFO]   ----- OPTIMIZING -----
+[INFO]   - iphone/alloy.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/localStorage.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/properties.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[INFO]   - iphone/alloy/sync/sql.js
+[TRACE]  processing "builtins" module...
+[TRACE]  processing "optimizer" module...
+[TRACE]  processing "compress" module...
+[TRACE]  
+[TRACE]  Benchmarking
+[TRACE]  ------------
+[TRACE]  [0.46644s] TOTAL
+[INFO]   
+[INFO]   Alloy compiled in 0.46644s
+[INFO]   Alloy compiler completed successfully
+[TRACE]  offline build file /var/folders/3x/_bbznb391mldk03_t23f1kzh0000gn/T/build-d73fba058b5f002361a892a772160e72d744b55d.json
+[TRACE]  online 1
+[TRACE]  optimizing build, last build was 74090.223 sec ago
+[INFO]   Creating Xcode project
+[TRACE]  Removing pre-compile phase
+[TRACE]  No native module libraries to add
+[TRACE]  No extensions to add
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Instagram.xcodeproj/project.pbxproj
+[INFO]   Creating Entitlements.plist
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Instagram.entitlements
+[INFO]   Creating Info.plist
+[INFO]   Disabling ATS
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Info.plist
+[INFO]   Creating main.m
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/main.m
+[INFO]   Creating Xcode config files
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/project.xcconfig
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/module.xcconfig
+[INFO]   Copying Titanium libraries
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/lib/libTiCore.a
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/lib/libtiverify.a
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/lib/libti_ios_debugger.a
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/lib/libti_ios_profiler.a
+[INFO]   Copying Titanium iOS files
+[TRACE]  Skipping Classes/ApplicationRouting.m, it'll be processed later
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Instagram_Prefix.pch
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Instagram.xcodeproj/xcshareddata/xcschemes/Instagram.xcscheme
+[INFO]   Creating debugger and profiler plists
+[DEBUG]  Skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/debugger.plist
+[DEBUG]  Skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/profiler.plist
+[INFO]   Analyzing Resources directory
+[INFO]   Analyzing platform files
+[INFO]   Analyzing module files
+[INFO]   Analyzing localized launch images
+[INFO]   Analyzing CommonJS modules
+[INFO]   Creating asset catalog
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/Contents.json
+[INFO]   Creating app icon set
+[DEBUG]  Unsupported app icon Resources/iphone/appicon-60.png, skipping
+[DEBUG]  Found valid app icon Resources/iphone/appicon-60@2x.png (120x120)
+[DEBUG]  Found valid app icon Resources/iphone/appicon-60@3x.png (180x180)
+[DEBUG]  Unsupported app icon Resources/iphone/appicon-72.png, skipping
+[DEBUG]  Unsupported app icon Resources/iphone/appicon-72@2x.png, skipping
+[DEBUG]  Found valid app icon Resources/iphone/appicon-76.png (76x76)
+[DEBUG]  Found valid app icon Resources/iphone/appicon-76@2x.png (152x152)
+[DEBUG]  Found valid app icon Resources/iphone/appicon-Small-40.png (40x40)
+[DEBUG]  Found valid app icon Resources/iphone/appicon-Small-40@2x.png (80x80)
+[DEBUG]  Unsupported app icon Resources/iphone/appicon-Small-50.png, skipping
+[DEBUG]  Unsupported app icon Resources/iphone/appicon-Small-50@2x.png, skipping
+[DEBUG]  Found valid app icon Resources/iphone/appicon-Small.png (29x29)
+[DEBUG]  Found valid app icon Resources/iphone/appicon-Small@2x.png (58x58)
+[DEBUG]  Unsupported app icon Resources/iphone/appicon@2x.png, skipping
+[TRACE]  Found generated 87x87 app icon: /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@3x.png
+[TRACE]  Found generated 120x120 app icon: /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@3x.png
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/AppIcon.appiconset/Contents.json
+[INFO]   Creating launch image set
+[DEBUG]  Unsupported launch image Resources/iphone/Default.png, skipping
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/LaunchImage.launchimage/Contents.json
+[DEBUG]  Copying resources
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/iTunesArtwork
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/iTunesArtwork@2x
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@2x.png
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-60@3x.png
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76.png
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-76@2x.png
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40.png
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small-40@2x.png
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small.png
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/AppIcon.appiconset/appicon-Small@2x.png
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-568h@2x.png
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-667h@2x.png
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape-736h@3x.png
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape.png
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Landscape@2x.png
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait-736h@3x.png
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait.png
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default-Portrait@2x.png
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Assets.xcassets/LaunchImage.launchimage/Default@2x.png
+[DEBUG]  Copying CSS files
+[INFO]   Processing JavaScript files
+[DEBUG]  Overwriting /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/Resources/iphone/alloy/CFG.js => /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/alloy/CFG.js
+[DEBUG]  Overwriting /var/folders/3x/_bbznb391mldk03_t23f1kzh0000gn/T/liveview.js => /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/app.js
+[DEBUG]  Overwriting /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/Resources/iphone/alloy/backbone.js => /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/alloy/backbone.js
+[DEBUG]  Overwriting /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/Resources/iphone/alloy/constants.js => /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/alloy/constants.js
+[DEBUG]  Overwriting /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/Resources/iphone/alloy/controllers/BaseController.js => /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/alloy/controllers/BaseController.js
+[DEBUG]  Overwriting /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/Resources/iphone/alloy/controllers/index.js => /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/alloy/controllers/index.js
+[DEBUG]  Overwriting /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/Resources/iphone/alloy/controllers/ventana2.js => /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/alloy/controllers/ventana2.js
+[DEBUG]  Overwriting /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/Resources/iphone/alloy/styles/index.js => /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/alloy/styles/index.js
+[DEBUG]  Overwriting /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/Resources/iphone/alloy/styles/ventana2.js => /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/alloy/styles/ventana2.js
+[DEBUG]  Overwriting /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/Resources/iphone/alloy/sync/localStorage.js => /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/alloy/sync/localStorage.js
+[DEBUG]  Overwriting /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/Resources/iphone/alloy/sync/properties.js => /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/alloy/sync/properties.js
+[DEBUG]  Overwriting /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/Resources/iphone/alloy/sync/sql.js => /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/alloy/sync/sql.js
+[DEBUG]  Overwriting /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/Resources/iphone/alloy/underscore.js => /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/alloy/underscore.js
+[DEBUG]  Overwriting /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/Resources/iphone/alloy/widget.js => /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/alloy/widget.js
+[DEBUG]  Overwriting /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/Resources/iphone/alloy.js => /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/alloy.js
+[DEBUG]  Overwriting /Users/Orellana/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9/ti.cloud.js => /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/ti.cloud.js
+[INFO]   Writing app properties
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/_app_props_.json
+[DEBUG]  Using default application routing
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Classes/ApplicationRouting.m
+[INFO]   Writing i18n files
+[DEBUG]  No i18n files to process
+[INFO]   Processing Titanium symbols
+[DEBUG]  Processing Titanium namespace resources
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/modules/ui/images/badge.png
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/modules/ui/images/closeButton.png
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app/modules/ui/images/photoDefault.png
+[TRACE]  No change, skipping /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/Classes/defines.h
+[INFO]   Removing files
+[DEBUG]  Removing empty directories
+[INFO]   Skipping xcodebuild
+[INFO]   Finished building the application in 1s 900ms
+[INFO]   Launching iOS Simulator
+[TRACE]  [ioslib] Selected iOS Simulator: iPhone 6
+[TRACE]  [ioslib]   UDID    = F1B8D791-DFF7-46CD-A2E1-677686B7FE03
+[TRACE]  [ioslib]   iOS     = 9.0
+[TRACE]  [ioslib] Autoselected Xcode: 7.0.1
+[TRACE]  [ioslib] Removing old log file: /Users/Orellana/Library/Developer/CoreSimulator/Devices/F1B8D791-DFF7-46CD-A2E1-677686B7FE03/data/Containers/Data/Application/92BAF76C-7E4E-4348-9979-C665B2D9589C/Documents/6b873640-c901-468f-9222-d41ad8d1c097.log
+[TRACE]  [ioslib] Tailing iPhone 6 Simulator system log: /Users/Orellana/Library/Logs/CoreSimulator/F1B8D791-DFF7-46CD-A2E1-677686B7FE03/system.log
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl shutdown F1B8D791-DFF7-46CD-A2E1-677686B7FE03
+[TRACE]  [ioslib] iPhone 6 Simulator was already shutdown
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/Applications/Simulator.app/Contents/MacOS/Simulator -CurrentDeviceUDID F1B8D791-DFF7-46CD-A2E1-677686B7FE03
+[TRACE]  [ioslib] iPhone 6 Simulator started
+[TRACE]  [ioslib] Running: osascript "/Users/Orellana/Library/Application Support/Titanium/mobilesdk/osx/5.0.2.GA/node_modules/ioslib/lib/sim_focus.scpt" "Simulator"
+[TRACE]  [ioslib] iPhone 6 Simulator successfully focused
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl install F1B8D791-DFF7-46CD-A2E1-677686B7FE03 /Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/build/iphone/build/Products/Debug-iphonesimulator/Instagram.app
+[TRACE]  [ioslib] App installed
+[TRACE]  [ioslib] Running: /Applications/Xcode.app/Contents/Developer/usr/bin/simctl launch F1B8D791-DFF7-46CD-A2E1-677686B7FE03 com.central14.instagram
+[TRACE]  [ioslib] App launched
+[TRACE]  [Instagram] assertion failed: 14F27 13A340: libxpc.dylib + 57978 [9D7FF5E0-5DAA-3118-9A08-436E517037E9]: 0x7d
+[TRACE]  [ioslib] Found application log file: /Users/Orellana/Library/Developer/CoreSimulator/Devices/F1B8D791-DFF7-46CD-A2E1-677686B7FE03/data/Containers/Data/Application/60873BBC-6489-4BBE-BBBD-88F2EE9D0E9B/Documents/6b873640-c901-468f-9222-d41ad8d1c097.log

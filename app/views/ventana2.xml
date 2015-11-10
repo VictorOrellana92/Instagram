@@ -1,0 +1,5 @@
+<Alloy>
+	<View class="container">
+		<Button id="btnVolver" onClick="Volver" >Volver</Button>
+	</View>
+</Alloy>

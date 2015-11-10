@@ -1,0 +1,43 @@
+<Alloy>
+	<Window class="container">
+		 
+		 <View id="view1" top="0dp">
+		 		<ImageView id="image"></ImageView>
+				<Label id="Lema">Inicia sesión para ver fotos y videos</Label>
+				<Label id="Lema2">de tus amigos</Label>		
+				
+			
+		 </View>
+		 
+		 <View id="view2" top="45%" height="30dp">
+		 		<Button id="btnRegistrarse" onClick="Registrarse">REGISTRARSE</Button>
+				<Button id="btnIniciarSesion" onClick="IniciarSesion">INICIAR SESIÓN</Button>
+		 </View>
+		 
+		 <View id="view3" top="50%"  height="50%" visible="true">
+		 		<TextField id="tfUsuario" hintText="Usuario" rect="true"></TextField>
+
+				<TextField id="tfContraseña" passwordMask="true" hintText="Contraseña"></TextField>
+				
+				<Label id= "lblolvido" color="blue"> ¿Te olvidaste?</Label>>
+				
+				<Button id="btnEntrar" onClick="Ingresar" >Aceptar</Button>
+				
+				<Label id="InicioFb">Iniciar sesión con facebook</Label>
+				<ImageView id="imgfb1"></ImageView>
+				
+				
+		 	 
+		 </View>
+		 
+		 
+		 <View id="view4" top="50%"  height="50%" visible="false">
+		 		<TextField id="tfNombreUsuario" hintText="Nombre de Usuario" borderStyle="ROUNDED"></TextField>
+				<TextField id="tfContraseña2" hintText="Contraseña"></TextField>
+				<TextField id="tfContraseña3" hintText="Repita Contraseña"></TextField>
+		
+		 	
+		 </View>
+		
+	</Window>
+</Alloy>

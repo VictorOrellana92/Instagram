@@ -1,0 +1,129 @@
+".container": {
+	backgroundColor: "white"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "white",
+}
+
+
+"#Lema": {
+	font: {
+		fontSize: '16px',
+		lineHeight :'17.5px',
+		//fontFamily:'Zapfino',
+		fontFamily:'Times new Roman',
+		fontWeight:'bold',
+	},
+	top: '200dp',
+	left: '18%'
+}
+
+"#Lema2": {
+	font: {
+		fontSize: '16px',
+		lineHeight :'17.5px',
+		//fontFamily:'Zapfino',
+		fontFamily:'Times new Roman',
+		fontWeight:'bold',
+	},
+	top: '220dp',
+	left: '36%'
+}
+
+"#image":{
+	image: "/Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/Images/Fondo.jpg",
+	width: '100%',
+	height: '50%',
+	top: '0'
+
+}
+
+"Button":{
+	color: "White",
+	
+	font: {
+		fontSize: '14px',
+		lineHeight :'17.5px',
+		//fontFamily:'Zapfino',
+		fontFamily:'Times new Roman',
+		fontWeight:'bold',
+	}
+	
+}
+
+"#btnRegistrarse": {
+	left: "10%"
+}
+"#btnIniciarSesion": {
+	right: "10%"
+}
+
+"#tfUsuario": {
+	top:"30dp",
+	left: "5%",
+	width: "90%"
+}
+
+"#tfContraseña": {
+	top:"70dp",
+	left: "5%",
+	width: "50%"
+}
+
+"#lblolvido": 	{
+	right: "40dp",
+	top:"70dp"
+}
+
+"#btnEntrar":	{
+	color: "Black",
+	borderColor: "blue",
+	borderRadius: "10dp",
+	width: "50dp",
+	
+}
+
+"#InicioFb":	{
+	bottom: "0dp",
+	color: "blue",
+	height: "40dp"
+}
+
+"#view3":	{
+	backgroundColor: "#F6F3F3",
+}
+"#view4":	{
+	backgroundColor: "#F6F3F3",
+	top: "45%",
+}
+
+"#imgfb1":{
+	image: "/Users/Orellana/Documents/Appcelerator_Studio_Workspace/Instagram/Images/facebook.png",
+	width: '20dp',
+	height: '20dp',
+	bottom: '10dp',
+	left: "10%"
+
+}
+
+"#tfNombreUsuario":	{
+	top:"30dp",
+	left: "20dp",
+	width: "280dp"
+}
+
+"#tfContraseña2": {
+	top:"70dp",
+	left: "20dp",
+	width: "280dp"
+}
+
+"#tfContraseña3": {
+	top:"110dp",
+	left: "20dp",
+	width: "280dp",
+	backgroundTopCap: "200dp"
+}
